@@ -26,17 +26,20 @@ Hệ thống phát hiện tài xế ngủ gật thời gian thực (Real-time) s
 1. **Cài đặt thư viện:**
    ```bash
    pip install -r requirements.txt
-   Chạy hệ thống nhận diện:
-code
-Bash
-python detect_yolo.py
-📊 Kết quả huấn luyện
-mAP@0.5: ~95%
-Precision: ~93%
-Recall: ~91%
-Inference Speed: ~15ms/frame (trên GTX GPU)
-📋 Dataset
-Dự án sử dụng bộ dữ liệu Driver Drowsiness Detection từ Kaggle (Nexuswho).
-✍️ Tác giả
-Họ và tên: [Điền tên của bạn vào đây]
-Đề tài: Đồ án môn học Deep Learning
+2. **Chạy hệ thống nhận diện:**
+   ```bash
+   python detect_yolo.py   
+
+##  Kết quả huấn luyện
+- `tmAP@0.5`: ~95%
+- `Precision`: ~93%
+- `Recall`: ~91%
+- `Inference Speed`: ~15ms/frame (trên GTX GPU)
+
+##  Dataset
+- Dự án sử dụng bộ dữ liệu Driver Drowsiness Detection từ Kaggle (Nexuswho).
+
+##  Tác giả
+- `Họ và tên`: Nguyễn Trí Trung.
+- `Đề tài`: Đồ án môn học Deep Learning.
+
