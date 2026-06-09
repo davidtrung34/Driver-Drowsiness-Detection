@@ -1,0 +1,8 @@
+__pycache__/
+drowsy_env/
+.venv/
+dataset_moi/
+data/
+runs/
+*.zip
+*.h5
