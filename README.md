@@ -15,7 +15,7 @@ Hệ thống phát hiện tài xế ngủ gật thời gian thực (Real-time) s
 - **Tăng tốc phần cứng:** NVIDIA CUDA & cuDNN
 
 ##  Cấu trúc thư mục
-- `models/`: Chứa file trọng số mô hình `best.pt`.
+- `models/`: Chứa file trọng số mô hình `yolov8n.pt`.
 - `train_yolo.py`: Script huấn luyện mô hình.
 - `detect_yolo.py`: Script nhận diện thời gian thực qua Webcam.
 - `data.yaml`: Cấu hình đường dẫn dataset.
